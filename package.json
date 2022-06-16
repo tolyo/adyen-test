@@ -1,0 +1,50 @@
+{
+  "name": "angularjs-ES6-brunch-seed",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tolyo/angularjs-brunch-es6-seed"
+  },
+  "scripts": {
+    "dev": "brunch watch --server",
+    "prod": "brunch build --production",
+    "test": "./node_modules/karma/bin/karma start",
+    "lint": "./node_modules/.bin/eslint app --fix",
+    "format": "./node_modules/.bin/prettier --write \"app/**/*.{js,html,css}\""
+  },
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-ui-router": "^1.0.30"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.7.9",
+    "angular-scenario": "^1.7.9",
+    "auto-reload-brunch": "^3.0.1",
+    "babel-brunch": "~7.0.1",
+    "babel-preset-latest": "^6.24.1",
+    "brunch": "^4.0.0",
+    "clean-css-brunch": "^3.0.0",
+    "css-brunch": "^2.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsdoc": "^35.1.3",
+    "html-pages-brunch": "^2.7.0",
+    "javascript-brunch": "^2.10.0",
+    "karma": "^6.4.0",
+    "karma-babel-preprocessor": "^8.0.1",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-jasmine": "~2.0.1",
+    "prettier": "^2.2.1",
+    "uglify-js-brunch": "^2.10.0"
+  },
+  "keywords": [
+    "babel",
+    "brunch",
+    "angularjs",
+    "es6",
+    "seed"
+  ]
+}
